@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Custom theme variables for Tailwind v4 */
+@theme {
+  --color-islamic-green: #0f766e;
+  --color-islamic-green-light: #14b8a6;
+  --color-islamic-green-dark: #115e59;
+}
+
+/* Base styles */
+@layer base {
+  body {
+    font-family: system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
